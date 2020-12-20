@@ -1,0 +1,609 @@
+/* Fonts */
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/raleway-v18-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./fonts/raleway-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/raleway-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/raleway-v18-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v18-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v18-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v18-latin-700.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+  /* raleway-italic - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/raleway-v18-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/raleway-v18-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/raleway-v18-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/raleway-v18-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/raleway-v18-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/raleway-v18-latin-italic.svg#Raleway') format('svg'); /* Legacy iOS */
+  }
+
+/* montserrat-200 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/montserrat-v15-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v15-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v15-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v15-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v15-latin-200.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-300italic - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/montserrat-v15-latin-300italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-300italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v15-latin-300italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v15-latin-300italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v15-latin-300italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v15-latin-300italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-regular - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v15-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-700italic - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v15-latin-700italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v15-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v15-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v15-latin-700italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v15-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v15-latin-700italic.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+
+/* General */
+:root{
+    --primary-font: 'Raleway', sans-serif;
+    --headline-font: 'Montserrat', sans-serif;
+    --primary-color: #585858;
+    --secondary-color: white;
+    --background-color: lightgrey;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+html {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+body{
+    margin: 0;
+}
+
+h1 {
+    font-family: var(--headline-font);
+    font-size: 3rem;
+    margin:0
+}
+
+h2 {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    margin:0;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+p {
+    font-weight: lighter;
+    line-height: 1.5rem;
+    padding-top: 8px;
+    margin: 0;
+}
+
+
+
+/* Header and Navigation*/
+
+header {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+
+}
+
+.mobileheader{
+    display: none
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+    padding-left:24px;
+}
+
+#logo h1{
+    font-size: 1.5em;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+  }
+
+@media only screen and (max-width: 800px) {
+    #logo {
+        display: none
+    }
+
+    .navigation {
+        display: none
+    }
+
+    .mobileheader {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .headeritem{
+        text-align: center;
+        width: 25%;
+    }
+
+
+}
+
+/* Main */
+
+.hero {
+    width: 100%;
+    background-color:var(--background-color);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+
+.heroimage {
+    width :60%;
+    height: 100%;
+}
+
+.heroimage img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+
+.herotext {
+    width: 30%;
+    line-height: 1.2;
+}
+
+.herotext h3 {
+    padding-bottom: 24px;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.button h3 {
+    margin: 0;
+    padding: 8px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .hero{
+        display:flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .herotext{
+        width: 100%;
+
+    }
+
+    .textwrap{
+        max-width: 100%;
+        padding: 16px;
+    }
+
+    .textwrap h1 {
+        padding: 16px 0px;
+    }
+
+    .textwrap h3 {
+        padding: 16px 0px;
+    }
+
+    .button{
+        margin-top: 8px;
+    }
+
+
+
+    .heroimage{
+        width:100%;
+    }
+}
+
+/*overview */
+
+.overview {
+    display: flex;
+    padding: 32px 0px;
+}
+
+.overviewhighlight {
+    width: 60%;
+    padding: 0px 24px 32px 24px;
+}
+
+.overviewhighlight img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.highlighttext {
+    padding-top: 32px;
+}
+
+.highlighttext p {
+    padding-top:24px;
+}
+
+.credits{
+    font-size: 0.8rem;
+    padding: 0;
+}
+
+.overviewsmall {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-left: solid var(--background-color) 1px;
+}
+
+.overviewitem{
+    display: flex;
+    border: solid var(--background-color) 1px;
+    align-items: center;
+}
+
+.overviewitem:hover{
+    background-color: var(--background-color);
+}
+
+.overviewitem p, h3 {
+    margin: 0;
+}
+
+.itemphoto{
+    height: auto;
+    width: 35%;
+    padding: 16px;
+}
+
+.itemphoto img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.itemphoto img.mobile{
+    display: none;
+}
+
+.itemtext{
+    width: 65%;
+}
+
+.readmore{
+    color: lightskyblue;
+}
+
+@media only screen and (max-width: 800px) {
+    .overview .desktop{
+        display: none
+    }
+    
+    .overview{
+        max-width: 100%
+    }
+    
+    .overviewhighlight {
+        display:none;
+    }
+
+    .overviewsmall{
+        width: 100%;
+    }
+
+    .overviewitem{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .itemphoto{
+        width: 100%;
+        padding:0;
+    }
+
+    .itemphoto img.mobile{
+        display:flex;
+    }
+
+    .itemtext{
+        padding: 16px;
+        width: 100%;
+    }
+
+    .itemtext .textwrapper{
+        padding: 16px;
+    }
+}
+
+/* Classes */
+
+.classesmobile{
+    display:none;
+}
+
+.learning{
+    background-color: var(--background-color);
+    padding: 1rem 0;
+}
+
+.learning h2{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.wrapper {
+    padding: 0rem 3rem;
+}
+
+.classes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.course{
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 16px;
+
+}
+
+.courseimage{
+    width: 100%;
+    height: auto;
+}
+
+.courseimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.coursetext {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    padding: 16px 16px 24px 16px;
+
+}
+
+.coursetext h3{
+    font-weight: bolder;
+}
+
+.coursetext p{
+    padding-top: 8px;
+    font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .classes{
+        display: none;
+    }
+
+    .learning{
+        background-color: var(--secondary-color);
+    }
+
+    .classesmobile{
+        display:flex;
+        flex-direction: column;
+        background-color: var(--secondary-color);
+        justify-content: space-evenly;
+        
+    }
+
+    .coursetextmobile{
+        background-color: var(--background-color);
+        margin: 8px 16px;
+    }
+    .coursetextmobile h2{
+        font-weight: lighter;
+    }
+}
+
+
+
+/* Thesis section */
+
+.thesis {
+    padding: 32px 0px;
+}
+
+#sectiontitle {
+    text-align: center;
+}
+
+
+.thesiswrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 32px 0px 0px 0px;
+}
+
+
+.mainthesis{
+    width: 60%;
+    padding: 0px 24px 0px 24px;
+}
+
+
+
+.mainthesis video {
+    width: 100%;
+    height: 100%;
+
+}
+
+.highlighttext {
+    padding-top: 24px;
+}
+
+.highlighttext p {
+    padding-top: 8px;
+}
+
+/* For the small 'Menu' items, refer to the earlier 'Overview' section. I recycled the code because it has the same requirements.*/
+
+@media only screen and (max-width: 800px) {
+    .thesiswrapper{
+        display: none; 
+    }
+
+    .thesismobile{
+        padding: 16px 0px 0px 0px;
+    }
+
+    .thesismobile video{
+        width:100%;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    height: 64px;
+}
+
+.footerwrapper {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid var(--background-color) 1px ;
+    padding-top: 16px;
+    padding-left: 24px;
+}
+
+.legal {
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px) {
+    .legal{
+        display: none
+    }
+}
